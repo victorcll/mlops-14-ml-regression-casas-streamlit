@@ -23,14 +23,18 @@ gcloud artifacts repositories create repo-mlops14-streamlit-ml --repository-form
 
 ## Paso Automatizacion:
 - git init
+-- git config --global user.email "victor.martin.casas.ll@gmail.com"
 - git add .
 - git commit -m "Proyecto de automatización de despliegue en GCR"
 - git branch -M main
 - git remote add origin https://github.com/victorcll/mlops-14-ml-regression-casas-streamlit.git
 - git push -u origin main
 
+# si sale error podemos forzar
+- git push -f origin main
 
-
+## Si ya existe el repositorio en github podrias hacer el remove
+- git remote remove origin 
 
 ## Cuando deseas volver a subir por algun error corres lo siguiente:
 - git add .

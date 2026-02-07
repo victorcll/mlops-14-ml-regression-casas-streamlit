@@ -1,9 +1,9 @@
 name: Deploy to Cloud Run
 
 env:
-  SERVICE_NAME: servicio-streamlit-kevin-inofuente-modulo2
-  PROJECT_ID: mlops-14-project-deploy-fast
-  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/mlops-14-project-deploy-fast/repo-mlops14-streamlit-regresion/image-v1-deploy-streamlit-cicd
+  SERVICE_NAME: servicio-streamlit-victor-casas-modulo2
+  PROJECT_ID: euphoric-patrol-485102-g6
+  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/euphoric-patrol-485102-g6/repo-mlops14-streamlit-ml/image-v1-deploy-streamlit-cicd
 
 on:
   push:
